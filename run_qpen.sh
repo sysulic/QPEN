@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-mbert_path=../trained-transformers/bert-multi-cased
-xlmr_path=../trained-transformers/xlmr-base
+#mbert_path=../trained-transformers/bert-multi-cased
+#xlmr_path=../trained-transformers/xlmr-base
+
+mbert_path=bert-base-multilingual-cased
+xlmr_path=xlm-roberta-base
 
 python main.py --tfm_type mbert \
             --exp_type acs \
