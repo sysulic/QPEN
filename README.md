@@ -28,5 +28,5 @@ To run experiments under different settings, change the `exp_type` setting:
 
 
 Two example scripts:
-- `run_absa.sh` provides an example to run basic experiment.
+- `run_qpen.sh` provides an example to run basic experiment.
 
